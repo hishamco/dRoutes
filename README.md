@@ -3,38 +3,36 @@ dRoutes
 
 Declarative Routing API for ASP.NET WebForms
 
-<h3>Features</h3>
-<ul>
-    <li>Declarative Routes using decorated attributes</li>
-    <li>Zero configuration</li>
-    <li>Integrated with ASP.NET Routing</li>
-</ul>
-<h3>Usage</h3>
-<ul>
-    <li>
-        Single Routes
-        <pre>
-<b>&lt;Route("Home")&gt;</b>
+### Features
+* Declarative Routes using decorated attributes</li>
+* Zero configuration</li>
+* Integrated with ASP.NET Routing</li>
+
+### Usage
+* Single Routes
+        
+```vb
+<Route("Home")>
 Public Class Default
     Inherites Page
 '
 '
 '
 End Class
-</pre>
-    </li>
-    <li>
-        Named Routes
-          <pre>
-<b>&lt;Route("NewsPress","News")&gt;</b>
+````
+
+* Named Routes
+          
+
+```vb
+<Route("NewsPress","News")>
 Public Class News
     Inherites Page
 '
 '
 '
 End Class
-</pre>
-        </li>
-        <li>Parameterized Routes</li>
-        <li>Multiple Routes</li>
-</ul>
+```
+
+* Parameterized Routes
+* Multiple Routes
